@@ -1,3 +1,22 @@
+
+**SAMPLE REMOTE COMPONENT**
+
+import {Component} from '@angular/core';
+
+@Component({
+  selector: 'load-me',
+  template: `
+    <h1>I'm a component loaded from a Gist!</h1>
+    <h2>{{someProp}}</h2>
+    `
+})
+export class LoadMe{
+  someProp;
+}
+
+** SAMPLE REMOTE COMPONENT**
+
+
 # Angular 2 Examples
 
 ### Angular 2 Starter Template
